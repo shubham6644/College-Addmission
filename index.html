@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIMT COLLEGE WEBSITE</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*This code is written for background image*/
+    body {
+        width: 100vw;
+        height: 170vh;
+        background: url('bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    /*This code is written for set logo of college*/
+    .left {
+        display: inline-block;
+        /* border: 2px solid red;*/
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    /*This code is written for set Button Home, About, Contact, About Us  */
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid red;*/
+    }
+
+    /*This code is written for set Button Call us,Email us*/
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red;*/
+
+    }
+
+    /*This code is written for set Button Home, About, Contact, About Us  */
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    /*This code is written for set Button Home, About, Contact, About Us  */
+    .navbar li a {
+        font-family: 'Baloo Bhai', cursive;
+        color: coral;
+        text-decoration: none;
+        padding: 22px;
+    }
+
+    /*This code is written for set Button Home, About, Contact, About Us  */
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellowgreen;
+    }
+
+    /*This code is written for set width of college logo*/
+    .left img {
+        width: 135px;
+    }
+
+    /*This code is written for set the text who is under the college logo*/
+    .left div {
+        color: yellowgreen;
+        font: bold;
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+    }
+
+    /*This code is written for set Button call us ,Email us   */
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: aqua;
+        border: 2px solid black;
+        border-radius: 24px;
+        padding: 4px 14px;
+
+    }
+
+    /*This code is written for set Button call us ,Email us   */
+    .btn:hover {
+        background-color: red;
+
+    }
+
+    /*This code is written for set Button call us ,Email us   */
+    .btn:active {
+        background-color: blue;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 70px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    /*This code is written for set the form fill area  */
+    .formgroup input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 334px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    /*This code is written for set the heading of form  */
+    .container h1 {
+        color: yellowgreen;
+        text-align: center;
+    }
+
+    /*This code is written for set submit button*/
+    .container button {
+        border-radius: 12px;
+        display: block;
+        width: 68%;
+        margin: 20px auto;
+    }
+
+    /*This is for Marquee design*/
+    .ww h1 {
+        color: aqua;
+        font: bold;
+        text-align: center;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 5ch;
+        background-color: aquamarine;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        margin: 0px auto;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        padding: 20px;
+        text-align: center;
+        color: rgb(0, 42, 78);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--Left box for logo-->
+        <div class="left">
+            <img src="image/MIMT LOGO.jpg" alt="Error">
+            <div>
+                Addmission Form
+            </div>
+        </div>
+        <!--Mid bar for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="hh.html">Home</a></li>
+                <li><a href="aa.html">About Us</a></li>
+                <li><a href="Error">Contact Us</a></li>
+                <li><a href="Error">Faculty</a> </li>
+            </ul>
+            <div class="ww">
+                <marquee direction="left">
+                    <h1>Welcome to mimt college website</h1>
+                </marquee>
+            </div>
+
+        </div>
+        <!-- Right box for button-->
+        <div class="right">
+
+            <button class="btn"  >Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Us with Make A Good Carrier</h1>
+        <form action="nothing.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Father's Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Mother's name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <div class="formgroup">
+                <input type="Age" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="Age" name="" placeholder="Contact Number">
+            </div>
+            <button class="btn"> Submit</button>
+        </form>
+
+    </div>
+    <footer class="footer">
+        <p class="copy">Developed by Shubham</p>
+    </footer>
+</body>
+
+</html>
